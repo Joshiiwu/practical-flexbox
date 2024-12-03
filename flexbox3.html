@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>ArellanoFlexbox1</title>
+  <title>ArellanoFlexbox3</title>
   
   <style>
     * {
@@ -68,7 +68,7 @@
       flex-grow: 1;
       gap: 5px;
       padding: 5px;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: flex-start;
     }
     
@@ -79,30 +79,32 @@
     .maincont1 {
       display: flex;
       flex-wrap: wrap;
-      flex-direction: row;
+      flex-direction: column;
       gap: 5px;
       padding: 5px;
     }
     
-    .mainitems {
+    .main1items {
       border: 1px solid black;
-      height: 70px;
-      width: 70px;
+      height: 25px;
+      width: 15vw;
     }
     
     .maincont2 {
       display: flex;
-      flex-wrap:wrap;
+      flex-grow: 2;
+      flex-wrap: wrap;
       flex-direction: row;
       gap: 5px;
       padding: 10px;
-      justify-content: space-between;
+      align-items: center;
+      justify-content: center;
     }
     
     .main2items {
       border: 1px solid black;
-      height: 150px;
-      width: 200px;
+      height: 200px;
+      width: 80px;
     }
     
     aside {
@@ -114,6 +116,8 @@
     }
     
     .asideitem {
+      display: flex;
+      flex-grow: 1;
       border: 1px solid black;
       height: 25px;
       width: 15vw;
@@ -184,31 +188,30 @@
   <div class="navcont2">
     <div class="navbigbox"></div>
     <div class="navbigbox"></div>
+    <div class="navbigbox"></div>
+    <div class="navbigbox"></div>
   </div>
 </nav>
 
 <div class="container">
   <main>
     <div class="maincont1">
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
-      <div class="mainitems"></div>
+      <div class="main1items"></div>
+      <div class="main1items"></div>
+      <div class="main1items"></div>
+      <div class="main1items"></div>
+      <div class="main1items"></div>
+      <div class="main1items"></div>
+      <div class="main1items"></div>
+      <div class="main1items"></div>
+      <div class="main1items"></div>
+      <div class="main1items"></div>
     </div>
     
     <div class="maincont2">
+      <div class="main2items"></div>
+      <div class="main2items"></div>
+      <div class="main2items"></div>
       <div class="main2items"></div>
       <div class="main2items"></div>
       <div class="main2items"></div>
@@ -218,26 +221,10 @@
     <div class="asideitem"></div>
     <div class="asideitem"></div>
     <div class="asideitem"></div>
-    <div class="asideitem"></div>
-    <div class="asideitem"></div>
-    <div class="asideitem"></div>
-    <div class="asideitem"></div>
-    <div class="asideitem"></div>
-    <div class="asideitem"></div>
-    <div class="asideitem"></div>
   </aside>
 </div>
 
 <footer>
-  <div class="footer1">
-    <div class="footercont1">
-      <div class="footer1redbox"></div>
-      <div>FLEXBOX</div>
-    </div>
-  </div>
-
-<hr>
-
  <div class="footer2">
   <div class="footer2boxes">
     <div class="footer2redbox"></div>
